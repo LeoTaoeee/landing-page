@@ -7,6 +7,11 @@
     color: #F9FAF8;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -21,6 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 0 40px 0 40px;
 }
 
 footer {
@@ -31,6 +37,38 @@ footer {
 .text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.blockone {
+    display: inline-flex;
+    background-color: #1F2937;
+    padding: 0 80px 0 80px;
+    width: 100%;
+    justify-content:center
+
+}
+
+#awesome {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8
+}
+
+.left {
+    display: inline-flex;
+    width: 20%;
+    height: 200px;
+    margin: 50px 100px 50px 100px;
+}
+
+.right {
+    height: 200px;
+    width: 30%;
+    background-color: gray;
+    margin: 50px 100px 50px 100px;
+    display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 a:link {
