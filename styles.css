@@ -32,6 +32,7 @@ header {
 footer {
     text-align: center;
     background-color: #1F2937;
+    padding: 30px;
 }
 
 .text {
@@ -54,11 +55,22 @@ footer {
     color: #f9faf8
 }
 
+.subtext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+#button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .left {
     display: inline-flex;
     width: 20%;
     height: 200px;
     margin: 50px 100px 50px 100px;
+    flex-direction: column;
 }
 
 .right {
@@ -71,6 +83,67 @@ footer {
   align-items: center;
 }
 
+.container{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.info{
+    margin: 50px;
+}
+
+.blockthree{
+    background-color: #E5E7EB;
+    padding: 150px 300px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote_guy{
+    text-align: right;
+}
+
+.blue{
+    background-color: #3882f6;
+    margin: 100px;
+    height: 150px;
+}
+
+#blue_btn{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-color: white;
+    border: #E5E7EB;
+    border: 2px solid;
+    width: auto;
+}
+
+.blockfour{
+    display:flex;
+}
 a:link {
     text-decoration: none;
 }
